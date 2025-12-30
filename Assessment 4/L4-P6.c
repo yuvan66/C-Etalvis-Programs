@@ -1,10 +1,10 @@
 #include<stdio.h>
 int main() {
-    int a=1;
-    loop: if (a<6)
+    int a=11;
+    loop: if (a<20)
     {
         printf("%d\n",a);
-        a++;
+        a += 2;
         goto loop;
     }
     return 0;
