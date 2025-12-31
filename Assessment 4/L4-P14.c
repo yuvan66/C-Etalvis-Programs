@@ -5,13 +5,12 @@ int main()
     scanf("%d",&a);\
     a1 = a;
     b = a%10;
-    loop1: if (a!=0)
+    loop: if (a!=0)
     {
         c += 1;
         a = a/10;
-        goto loop1;
+        goto loop;
     }
-    
     printf("%d",c);
     return 0;
 }
