@@ -4,9 +4,9 @@ Example:
 
 string: helloetalvislearning
 
-character: e
+character: e*/
 
-Answer: 2, 6, 14*/
+
 #include <stdio.h>
 #include <string.h>
 void findchar(char * name, char get ){
